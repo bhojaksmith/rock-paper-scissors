@@ -1,52 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-      
-
-
-    <link rel="stylesheet" type="text/css" href="style1.css">
-	<title>Rock paper scissors</title>
-</head>
-<body> 
-<script type="text/javascript">
-confirm("Ready to play?");
-<script type="text/javascript">
 var userChoice = prompt("Do you choose rock, paper or scissors?");
 var computerChoice = Math.random();
 if (computerChoice <= 0.34) {
-   confirm(computerChoice = "rock");
+	computerChoice = "rock";
 } else if(computerChoice <= 0.67) {
-  confirm(computerChoice = "paper");
+	computerChoice = "paper";
 } else {
-  confirm(computerChoice = "scissors");
-} alert("Computer: " + computerChoice);
+	computerChoice = "scissors";
+} console.log("Computer: " + computerChoice);
 var compare = function (choice1, choice2) {
     if (choice1 === choice2) {
-        alert("The result is a tie!");
+        return "The result is a tie!";
     }
     if (choice1 === "rock") {
        if (choice2 === "scissors"){ 
-        alert("rock wins");
+        return "rock wins";
     } else {
-        alert("paper wins");
+        return "paper wins";
     } if (choice1 === "paper") {
         if (choice2 === "rock") {
-            alert("paper wins");
+            return "paper wins";
         } else if (choice2 === "scissors") {
-            alert("scissors wins");
+            return "scissors wins";
             if(choice1 === "scissors"){
-                alert("rock wins");
+                return "rock wins";
               }else if(choice2 === "paper"){
-                  alert("scissors win");
+                  return "scissors win";
                   }
        
         }
     }
 }
 };
-alert("The challenger has chosen" + " " + userChoice);
-alert("The computer has chosen" + " " + computerChoice);
-compare(userChoice, computerChoice);
-</script>
-</body>
-</html>
+compare(userChoice,computerChoice);
