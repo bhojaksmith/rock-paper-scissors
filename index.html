@@ -1,9 +1,13 @@
-<form method="post" action="http://smith72.github.io/rock-paper-scissors/form.php">
+<form method="post">
 	<p>
 	Name:<br>
 	<input type="text" name="firstname" size="30">
 	</p>
 	<p>
 		<input type="submit" value="Submit Info">
+	<?php
+		$firstname = $_POST['firstname'];
+	print "<p>Congratulations $firstname </p>";
+	?>
 	</p>
 </form>
