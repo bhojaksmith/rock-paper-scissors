@@ -1,15 +1,99 @@
-<form method="post">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project Beta</title>
+	<style type="text/css">
+	#author{
+			color: teal;
+			font-size: 36px;
+			text-align: center;
 
-	
-	<?php
-	<p>
-	Name:<br>
-	<input type="text" name="firstname" size="30">
-	</p>
-		<input type="submit" value="Submit Info">
-	<p>
-		$firstname = $_POST['firstname'];
-	print "<p>Congratulations $firstname </p>";
-	?>
-	</p>
-</form>
+	}
+	#author:hover{
+		background-color: cyan;
+		color: white;
+
+	}
+	body{
+		background-color: orange;
+	}
+	#visit:hover{
+		background-color: teal;
+	}
+	#visit{
+			text-align: center;
+			border-left: 2px inline cyan;
+			color: white;
+
+	}
+	.refer{
+		padding-right: 100%;
+	}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		confirm("This is Two Player Game. Click Ok to confirm");
+		confirm("Lets Play rock Paper Scissors.");
+		var u1 = prompt("Enter Player 1's Name");
+		var u2 = prompt("Enter Player 2's Name");
+		confirm(" Now " +u1 + "'s Turn");
+		var u1c = prompt("Enter " + u1 +"'s Choice in Rock or Paper or Scissors By  r,p,s ");
+		confirm("And Now "+ u2 +"'s Turn")
+		var u2c = prompt("Enter " + u2 +"  Choice in Rock or Paper or Scissors By  r,p,s ");
+		if (u1c === "r" && u2c === "r") {
+			confirm("Result is Tie try again !");
+		}
+		else if (u1c === "r" && u2c === "p") {
+			confirm( "" + u2 +"Wins");
+		}
+		else if (u1c === "r" && u2c === "s") {
+			confirm("So "+ u1 +" Wins");
+		}
+		else if (u1c === "p" && u2c === "r") {
+			confirm("So " + u1+" Wins");
+		}
+		else if (u1c === "s" && u2c === "r") {
+			confirm("And "+u2+" Wins");
+		}
+		else if (u1c === "p" && u2c === "p") {
+			confirm("Its a Tie try again");
+		}
+		else if (u1c === "s" && u2c ==="s"){
+			confirm("Its a tie try again");
+		} 
+		else if (u1c === "p" && u2c === "s"){
+			confirm("And "+u2+" Wins");
+		}
+		else if (u1c === "s" && u2c === "p"){	
+			confirm("And "+ u1+" Wins");
+		}
+		else{
+				confirm("Error occured try reloading The page & please Enter in either r or p or s");
+		}
+		confirm("If you find error try reloading The page");
+		confirm("Press F5 To replay"); 	
+	</script>
+<div id="author">
+	Author : Smith Bhojak
+</div>
+	<p style="text-align: center;">
+	<a href="">
+	<input type="submit" value="Play Again?"></input></p>
+	</a>
+<div id="visit"><h1><a href="https://smith72.github.io/bhojaksmith" style="text-decoration:none;">Visit My Other Stuff ?</a></div>
+ <div class="refer">
+ <a href="http://smith72.github.io/First_GAME">
+ <img src="http://previews.123rf.com/images/blankstock/blankstock1501/blankstock150101154/35194267-Quiz-with-check-sign-icon-Questions-and-answers-game-symbol-Gray-flat-button-with-shadow-Modern-UI-w-Stock-Vector.jpg" width="50" height="50" title="Play My Quiz?">
+ </a> 
+ <a href="http://www.facebook.com/sbhojak06" target="_top" style="text-decoration: none;"><img src="http://static.iconarchive.com/static/images/social/facebook-icon.png" width="50" height="50" title="Share on Facebook" class="opacityhover">
+ </a>
+  <a href="http://www.twitter.com/BhojakSmith" style="text-decoration: none;"> 
+  <a href="http://twitter.com/home?status=http%3A%2F%2Fwww.iconarchive.com%2Fshow%2Fsocial-buntings-icons-by-social-media-icons.html" target="_blank"><img src="http://static.iconarchive.com/static/images/social/twitter-icon.png" width="50" height="50" title="Share on Twitter"  ></a>
+ <a href="mailto:99sbhojak@gmail.com" style="text-decoration: none;"><img src="https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico" width="50" height="50" border="0" title="Mail Me"></a> 
+ <a href="http://about.me/bhojaksmith" style="text-decoration: none;"> <img src="https://d2ed0w4q03gsmw.cloudfront.net/s3/assets/e9b9059/images/icons/favicon/favicon.ico" width="50" height="50" border="0" title="About me"></a>
+ <a href="https://bhojaksmith.wordpress.com/2015/11/21/introduction/"><img src="https://s1.wp.com/i/favicon.ico"  width="50" height="50" border="0" title="Wordpress Profile"></a>
+ </div>
+</body>
+</html>
