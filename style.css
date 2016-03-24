@@ -1,28 +1,29 @@
-#author{
+	#author{
 			color: teal;
 			font-size: 36px;
 			text-align: center;
 
 	}
 	#author:hover{
-		background-color: cyan;
-		color: white;
+		background-color: teal;
+		color: cyan;
+		border: 2px solid cyan;
 
 	}
 	body{
-		background-color: orange;
+		background-color: rgb(255,201,14);
 	}
 	#visit:hover{
 		background-color: teal;
+		border: 2px solid cyan;
 	}
 	#visit{
 			text-align: center;
 			border-left: 2px inline cyan;
 			color: white;
+			margin-left:200px;
+			margin-right: 200px;
 
-	}
-	.refer{
-		padding-right: 100%;
 	}
 	#fb{
 		height: :50px;
