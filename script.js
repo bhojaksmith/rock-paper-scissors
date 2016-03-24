@@ -1,7 +1,7 @@
 		confirm("Lets Play rock Paper Scissors. Click Ok to confirm");
 		var un = prompt("Enter your Name:");
 		var cc = Math.random();
-		var uc  = prompt("Enter your choice: ");
+		var uc  = prompt("Enter your choice in 'r,p,s' (r=rock,p=paper,s=scissors): ");
 		if (cc >= 0.1 && cc <0.4){
 			if (uc === "r") {
 			confirm("Its a Tie try again!");
