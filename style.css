@@ -40,11 +40,11 @@
 			}
 			img{border-radius:25%;}
 
-		button{
+		    button{
 			background: rgb(255,201,14);
 			height: 100px;
-			width: 150px; 
-			margin-left: 100px;
+			width: 200px; 
+			margin-left: 150px;
 		    color:teal;
 		    font-size: 2em;
 		    font-family: comic sans ms;
