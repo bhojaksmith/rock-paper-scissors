@@ -1,4 +1,3 @@
-					confirm("Lets Play?");
 					var un = prompt("Enter Your Name:");
 					function rock() {
 					var cc = Math.random();
