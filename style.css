@@ -1,82 +1,91 @@
-	#author{
+#test{		height: 300px;
+			color: teal;
+			width: 350px;
+			background: cyan;
+			margin: auto;
+			margin-top:100px;
+			font-family: comic sans ms;
+			font-size: 4em;
+			border-radius: 25%;
+			border: 10px solid teal;
+			padding-left: 100px;
+			transition:.5s;
+	}
+#test:hover{	
+			border: 14px solid cyan;
+   			color: cyan;
+			background: teal;
+	}
+		body{background-color: rgb(255,201,14);}
+		p{
+			font-size: 3em;
+			text-align: center;
+			color: cyan;
+			margin-left: 500px;
+			margin-right:500px;
+		}
+		p:hover{
+			background: cyan;
+			color: teal;
+			;
+		}
+		button{
+			height: 100px;
+			width: 200px; 
+			margin-left:670px;
+		    color:teal;
+		    font-size: 2em;
+		    font-family: comic sans ms;
+		    background: cyan;
+		    border: 6px solid teal;
+		    cursor: pointer;
+		    border-radius: 25%;
+		    transition: .5s;
+		}
+		button:hover{
+			height: 150px;
+			width: 250px;
+		    color:cyan;
+		    font-size: 3em;
+		    background: teal;
+		    border: 10px solid cyan;
+		    margin-left:650px;
+		}
+		#author{
 			color: teal;
 			font-size: 36px;
 			text-align: center;
 
 	}
 	#author:hover{
-		background-color: teal;
-		color: cyan;
-		border: 2px solid cyan;
-
-	}
-	body{
-		background-color: rgb(255,201,14);
-	}
-	#visit:hover{
-		background-color: teal;
-		border: 2px solid cyan;
-	}
-	#visit{
-			text-align: center;
-			border-left: 2px inline cyan;
-			color: white;
-			margin-left:200px;
-			margin-right: 200px;
-
-	}
+			background-color: teal;
+			color: cyan;
+			border: 2px solid cyan;
+}
 	#fb{
-		height: :50px;
-		width: 50px;
-		transition: 1s;
-		background-color: cyan;
-	}
-	#fb:hover{
-		width: 100px;
-	}
+			height: :50px;
+			width: 50px;
+			}
 	#aboutme{
-		height: :50px;
-		width: 50px;
-		transition: 1s;
-		background-color: cyan;
-	}
-	#aboutme:hover{
-		width: 100px;
-	}
+			height: :50px;
+			width: 50px;
+			}
 	#twitter{
-		height: :50px;
-		width: 50px;
-		transition: 1s;
-		background-color: cyan;
-	}
-	#twitter:hover{
-		width: 100px;
-	}
+			height: :50px;
+			width: 50px;
+			}
 	#wordpress{
-		height: :50px;
-		width: 50px;
-		transition: 1s;
-		background-color: cyan;
-	}
-	#wordpress:hover{
-		width: 100px;
-	}
+			height: :50px;
+			width: 50px;
+			}
 	#quiz{
-		height: :50px;
-		width: 50px;
-		transition: 1s;
-		background-color: cyan;
-	}
-	#quiz:hover{
-		width: 100px;
-	}
+			height: :50px;
+			width: 50px;
+		}
 	#mail{
-		height: :50px;
-		width: 50px;
-		transition: 1s;
-		background-color: cyan;
-
-	}
-	#mail:hover{
-		width: 100px;
-	}
+			height: :50px;
+			width: 50px;
+			transition: 1s;
+			}
+	margin-left:100px;
+}
