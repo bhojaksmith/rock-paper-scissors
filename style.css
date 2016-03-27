@@ -43,8 +43,8 @@
 		button{
 			background: rgb(255,201,14);
 			height: 100px;
-			width: 200px; 
-			margin-left: 200px;
+			width: 150px; 
+			margin-left: 150px;
 		    color:teal;
 		    font-size: 2em;
 		    font-family: comic sans ms;
@@ -55,7 +55,7 @@
 		}
 		button:hover{
 			height: 150px;
-			width: 250px;
+			width: 200px;
 		    color:cyan;
 		    border: 10px solid cyan;
 		    }
