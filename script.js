@@ -1,6 +1,4 @@
-					function start(){
-							var un = prompt("Enter Your Name:");
-					}
+					var un = prompt("Enter Your Name:");
 					function rock() {
 					var cc = Math.random();
 						if (cc >= 0.1 && cc <0.4){
