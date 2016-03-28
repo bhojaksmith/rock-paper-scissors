@@ -23,11 +23,11 @@
 			color: cyan;
 			margin-left: 500px;
 			margin-right:500px;
+		
 		}
-		p:hover{
-			background: cyan;
-			color: teal;
-			;
+		div{	margin-left: 500px;
+			margin-right:500px;
+			
 		}
 		#img{
 			height: 100px;
