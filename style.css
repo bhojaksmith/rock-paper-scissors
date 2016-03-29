@@ -12,6 +12,7 @@
 			border: 10px solid teal;
 			padding-left: 100px;
 			transition:.5s;	
+	}
 #test:hover{	
 			border: 14px solid cyan;
    			color: cyan;
