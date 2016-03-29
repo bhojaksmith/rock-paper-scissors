@@ -21,13 +21,11 @@
 			font-size: 3em;
 			text-align: center;
 			color: cyan;
-			margin-left: 500px;
-			margin-right:500px;
 		
 		}
-		div{	margin-left: 500px;
-			margin-right:500px;
-			
+		div{	margin:auto;
+			padding-left:50%;
+			padding-right:50%;
 		}
 		#img{
 			height: 100px;
