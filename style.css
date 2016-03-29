@@ -1,15 +1,11 @@
 #test{			height: 300px;
 			color: teal;
-			width: 200px;
+			width: 150px;
 			background: cyan;
-			margin: auto;
-			margin-left:300px;
-			margin-right:300px;
-			margin-top:200px;
 			font-family: comic sans ms;
 			font-size: 4em;
 			border-radius: 25%;
-			border: 10px solid tealx;
+			border: 10px solid teal;
 			transition:.5s;
 	}
 #test:hover{	
