@@ -1,14 +1,17 @@
-#test{	
+
+#test{
 			height: 300px;
-			width:150px;
 			color: teal;
+			width: 350px;
 			background: cyan;
+			margin: auto;
+			margin-top:100px;
 			font-family: comic sans ms;
 			font-size: 4em;
 			border-radius: 25%;
 			border: 10px solid teal;
-			transition:.5s;
-	}
+			padding-left: 100px;
+			transition:.5s;	
 #test:hover{	
 			border: 14px solid cyan;
    			color: cyan;
