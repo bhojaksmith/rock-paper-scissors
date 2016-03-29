@@ -4,6 +4,7 @@
 			background: cyan;
 			font-family: comic sans ms;
 			font-size: 4em;
+			text-align: left;
 			border-radius: 25%;
 			border: 10px solid teal;
 			transition:.5s;
