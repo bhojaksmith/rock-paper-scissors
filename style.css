@@ -1,13 +1,10 @@
-#test{			height: 300px;
+#test{	
+			height: 300px;
+			width:150px;
 			color: teal;
-			width: 50px;
 			background: cyan;
 			font-family: comic sans ms;
-    			margin-bottom: 100px;
-    			padding-right: 100%;
-			margin-left: 200px;
 			font-size: 4em;
-			text-align: left;
 			border-radius: 25%;
 			border: 10px solid teal;
 			transition:.5s;
