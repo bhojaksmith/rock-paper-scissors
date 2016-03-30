@@ -1,18 +1,15 @@
-
-#test{
-			height: 300px;
+#test{		height: 300px;
 			color: teal;
-			width: 40px;
+			width: 350px;
 			background: cyan;
 			margin: auto;
-			margin-left:60px;
 			margin-top:100px;
 			font-family: comic sans ms;
 			font-size: 4em;
 			border-radius: 25%;
 			border: 10px solid teal;
 			padding-left: 100px;
-			transition:.5s;	
+			transition:.5s;
 	}
 #test:hover{	
 			border: 14px solid cyan;
@@ -20,15 +17,27 @@
 			background: teal;
 	}
 		body{background-color:deepskyblue;}
-		p{
+		h1{
 			font-size: 3em;
 			text-align: center;
 			color: cyan;
-		
+			margin-left: 500px;
+			margin-right:500px;
 		}
-		div{	margin:auto;
-			padding-left:50%;
-			padding-right:50%;
+		h1:hover{
+			background: cyan;
+			color: teal;
+			
+		}
+		p{
+			margin-left:500px;	
+			margin-right: 500px;
+			display: inline-block;	
+			border: 2px solid lime;
+		}
+		p:hover{
+			border: 6px solid teal;
+	
 		}
 		#img{
 			height: 100px;
@@ -41,7 +50,7 @@
 			}
 			img{border-radius:25%;}
 
-		    button{
+		button{
 			background: rgb(255,201,14);
 			height: 100px;
 			width: 200px; 
