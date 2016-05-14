@@ -63,7 +63,7 @@
 		    cursor: pointer;
 		    border-radius: 25%;
 		    transition: .5s;
-			margin-left: 40px;
+			margin-left: 25px;
 		}
 		button:hover{
 		    color:cyan;
