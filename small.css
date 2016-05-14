@@ -62,8 +62,8 @@
 		    border: 2px solid teal;
 		    cursor: pointer;
 		    border-radius: 25%;
-		    transition: .5s;
-			margin-left: 25px;
+		transition: .5s;
+			margin-left: 10px;
 		}
 		button:hover{
 		    color:cyan;
