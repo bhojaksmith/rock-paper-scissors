@@ -21,7 +21,7 @@
 			font-size: 3em;
 			text-align: center;
 			color: cyan;
-			margin-left: 150px;
+			margin: 0 auto;
 
 		}
 		h1:hover{
@@ -80,3 +80,6 @@
 			color: cyan;
 			border: 2px solid cyan;
 				}
+				#icn:hover{color: cyan;}
+		a{color: white;text-decoration:none;}
+		#img_bord:hover{border:6px solid deepskyblue;}
