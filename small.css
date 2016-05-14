@@ -51,10 +51,11 @@
 			}
 
 		button{
+			text-align: center;
 			background: rgb(255,201,14);
-			height: 50px;
-			width: 100px; 
-			margin:0 auto;
+			height: 75px;
+			width: 75px; 
+			position:relative;
 		    color:teal;
 		    font-size: 2em;
 		    font-family: comic sans ms;
@@ -62,7 +63,7 @@
 		    cursor: pointer;
 		    border-radius: 25%;
 		    transition: .5s;
-			margin:0 auto;
+			margin-left: 40px;
 		}
 		button:hover{
 		    color:cyan;
