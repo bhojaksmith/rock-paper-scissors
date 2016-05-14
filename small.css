@@ -8,6 +8,7 @@
 			border-radius: 25%;
 			border: 10px solid teal;
 			transition:.5s;
+			text-align: center;
 	}
 #test:hover{	
 			border: 7px solid cyan;
