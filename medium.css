@@ -16,6 +16,7 @@
 			border: 14px solid cyan;
    			color: cyan;
 			background: teal;
+	
 	}
 		body{			background:url("http://i.imgur.com/CfjkYxp.jpg"); 	
 }
@@ -71,6 +72,7 @@
 		button:hover{
 		    color:cyan;
 		    border: 10px solid cyan;
+			opacity:1;
 		    }
 		#author{
 			color: white;
