@@ -1,7 +1,7 @@
 #test{		height: 300px;
 			color: teal;
 			width: 350px;
-			background: cyan;
+			background: white;
 			margin: auto;
 			margin-top:100px;
 			font-family: comic sans ms;
@@ -10,13 +10,15 @@
 			border: 10px solid teal;
 			padding-left: 100px;
 			transition:.5s;
+			opacity: 0.5;
 	}
 #test:hover{	
 			border: 14px solid cyan;
    			color: cyan;
 			background: teal;
 	}
-		body{background-color:deepskyblue;}
+		body{			background:url("http://i.imgur.com/CfjkYxp.jpg"); 	
+}
 		h1{
 			font-size: 3em;
 			text-align: center;
@@ -48,6 +50,7 @@
 			img{
 				height: 50px;
 				width: 50px; 		
+				opacity: 0.5;
 				border-radius:25%;
 			}
 
@@ -62,6 +65,7 @@
 		    cursor: pointer;
 		    border-radius: 25%;
 		    transition: .5s;
+		    opacity: 0.5;
 		    margin-left: 90px;
 		}
 		button:hover{
