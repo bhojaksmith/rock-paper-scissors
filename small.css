@@ -1,13 +1,14 @@
 #test{		height: 120px;
 			color: teal;
 			width: 250px;
-			background: cyan;
+			background: white;
 			margin:0 auto;
 			font-family: comic sans ms;
 			font-size: 2em;
 			border-radius: 25%;
 			border: 10px solid teal;
 			transition:.5s;
+			opacity:0.5;					
 			text-align: center;
 	}
 #test:hover{	
@@ -15,8 +16,11 @@
    			color: cyan;
 			background: teal;
 	}
-		body{background-color:deepskyblue;}	
-		h1{
+	body{
+					background:url("http://i.imgur.com/CfjkYxp.jpg"); 	
+
+		}
+			h1{
 			font-size: 2em;
 			text-align: center;
 			color: cyan;
@@ -62,8 +66,8 @@
 		    border: 2px solid teal;
 		    cursor: pointer;
 		    border-radius: 25%;
-		transition: .5s;
-			margin-left: 10px;
+		    transition: .5s;
+			margin:0px auto;
 		}
 		button:hover{
 		    color:cyan;
