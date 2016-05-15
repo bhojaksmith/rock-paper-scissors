@@ -1,42 +1,42 @@
-			#Name{
-					text-align: center;
-					color: black;
-					font-weight: bold;
-					font-size: 55px;
-					font-family: sans-serif;
+				#Name{
+						text-align: center;
+						color: black;
+						font-weight: bold;
+						font-size: 55px;
+						font-family: sans-serif;
+						
+						}
+				.about{
+						margin: auto;
+						color:teal;
+						background: white;
+						font-size: 30px;
+	        			text-align: center;
+	        			border-bottom:2px solid cyan;
+						}
+	    	#img{
+	    				display: block;
+	    				margin: 0 auto;
+	    				height: 400px;
+	    				width: 365px;
+	    				border-radius: 25%;
+	    			}
+		
+				div.content{
+						color:cyan;
+						font-weight: bold;
+						font-size: 25px;	
+						border-left: 10px solid cyan;
+						text-align: center;
+						}
+					body{
+						background: black;
+					}
+			#icn:hover{color: cyan;
+						height:70px;
+						width: 70px; 
+						}
+			a{color: white;text-decoration:none;}
+			#img_bord:hover{border:6px solid white;}
 					
-					}
-			.about{
-					margin: auto;
-					color:teal;
-					background: white;
-					font-size: 30px;
-        			text-align: center;
-        			border-bottom:2px solid cyan;
-					}
-    	#img{
-    				display: block;
-    				margin: 0 auto;
-    				height: 400px;
-    				width: 365px;
-    				border-radius: 25%;
-    			}
-	
-			div.content{
-					color:cyan;
-					font-weight: bold;
-					font-size: 25px;	
-					border-left: 10px solid cyan;
-					text-align: center;
-					}
-				body{
-					background: black;
-				}
-		#icn:hover{color: cyan;
-					height:70px;
-					width: 70px; 
-					}
-		a{color: white;text-decoration:none;}
-		#img_bord:hover{border:6px solid white;}
-				
-				
+					
