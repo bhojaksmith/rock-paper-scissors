@@ -1,0 +1,95 @@
+#test{		height: 300px;
+			width: 350px;
+			background: white;
+			margin: auto;
+			margin-top:100px;
+			text-align: center;
+			font-family: comic sans ms;
+			font-size: 4em;
+			color: teal;
+			font-weight: bold;	
+			border-radius: 25%;
+			border: 10px solid teal;
+			transition:.5s;
+			opacity: 0.5;
+			
+	}
+		
+#test:hover{	
+			border: 14px solid cyan;
+   			color: cyan;
+   			opacity: 1;
+			background: teal;
+	}
+		body{
+			
+			background:url("http://i.imgur.com/CfjkYxp.jpg"); 	
+		}
+		h1{
+			font-size: 3em;
+			text-align: center;
+			color: cyan;
+			margin: 0 auto;
+
+		}
+		h1:hover{
+			background: cyan;
+			color: teal;
+			
+		}
+		p{
+			margin-left:500px;	
+			margin-right: 500px;
+			display: inline-block;	
+			border: 2px solid lime;
+		}
+		p:hover{
+			border: 6px solid teal;
+	
+		}
+		#img{
+			height: 100px;
+			width: 200px; 		 		   		   
+			cursor: pointer;
+		    border-radius: 25%;
+		    transition: .5s;
+			display:inline-block;
+			
+			}
+			img{border-radius:25%;}
+
+		button{
+			background: rgb(255,201,14);
+			height: 100px;
+			width: 200px; 
+			margin-left: 150px;
+		    color:teal;
+		    font-size: 2em;
+		    font-family: comic sans ms;
+		    border: 6px solid teal;
+		    cursor: pointer;
+		    border-radius: 25%;
+		    transition: .5s;
+		    opacity: .5;
+		}
+		button:hover{
+			opacity: 1;
+			height: 150px;
+			width: 250px;
+		    color:cyan;
+		    border: 10px solid cyan;
+		    }
+		#author{
+			color: white;
+			font-size: 36px;
+			text-align: center;
+
+	}
+	#author:hover{
+			background-color: teal;
+			color: cyan;
+			border: 2px solid cyan;
+				}
+				#icn:hover{color: cyan;}
+		a{color: white;text-decoration:none;}
+		#img_bord:hover{border:6px solid deepskyblue;}
